@@ -1,0 +1,40 @@
+.page-container {
+    height: 100%;
+    background: rgb(35,42,58);
+
+}
+
+.sidebar {
+    height: 100%;
+    width: 300px;
+    background: rgba(0, 0, 0, 0.2);
+}   
+.list-items {
+    padding-top:60px;
+}
+.list-item {
+    color: #89afff;
+    padding: 10px 20px;
+    font-family: 'Vollkorn', serif;
+    display: flex;
+    
+}
+
+.list-item:hover {
+    color: red;
+}
+
+img {
+    width: 60%;
+    height: 10%;
+    border-radius: 49%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.list-item i.material-icons {
+    margin-right: 10px;
+}
+
